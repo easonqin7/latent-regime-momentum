@@ -1,0 +1,31 @@
+{
+  "prepared_on": "2026-10-05",
+  "source_notebook_name": "Latent Regime Momentum.ipynb",
+  "source_notebook_sha256": "0055002fe5ef4b180eb771f2febb5a74d6914ed93d8303f7705275f0427acc40",
+  "baseline_source": "Saved notebook outputs; no full historical rerun during publication",
+  "main_figure": "Exact PNG extracted from saved notebook image output",
+  "experiments_source": "Rounded numbers transcribed from author-provided comparison screenshots; daily experiment paths are not reconstructed",
+  "source_code_function_count": 14,
+  "public_notebook_changes": [
+    "English markdown narrative",
+    "portable input paths via LRM_DATA_DIR",
+    "local results output directory"
+  ],
+  "data_included": false,
+  "data_reason": "Original market data vendor/redistribution permissions and point-in-time provenance not established",
+  "evaluation": "2010–2016 development (legacy train/val subperiods); 2017–2026-09-30 repeatedly observed historical test",
+  "full_historical_execution_during_publication": false,
+  "available_local_input_sha256": {
+    "sp500_prices.csv": "c2234896bd7b0bc2ad4d95c317780c91014c7b55bf54e4da269eccf6dc201171",
+    "etf_prices.csv": "000adba649421689a7b235833271a84bcb82804df4e2cc421faa3ca993e13822"
+  },
+  "input_hash_note": "Hashes identify the locally available files at packaging time; the original execution did not save hashes, so equivalence to the saved-run vintage is not independently proven.",
+  "publication_checks": {
+    "unit_tests_passed": 10,
+    "unchanged_extracted_function_count": 14,
+    "notebook_schema_valid": true,
+    "saved_outputs_preserved": true,
+    "full_historical_rerun": false,
+    "python": "3.13.3"
+  }
+}

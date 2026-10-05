@@ -1,0 +1,72 @@
+imports sucessfully
+
+ETF: (4719, 13) 2008-01-02 -> 2026-10-01
+SPX: (4716, 503) 2008-01-02 -> 2026-09-30
+
+month_ends 样例: [datetime.date(2008, 1, 31) datetime.date(2008, 2, 29)
+ datetime.date(2008, 3, 31)]
+
+hamilton ok
+
+gauss: converged=True | accuracy=0.924 | nu=inf
+t: converged=True | accuracy=0.907 | nu=8.377
+全部合成检查通过
+合成状态识别率不等于真实市场回撤保护成功率。
+
+t 已完成周数: 25 截至: 2009-06-19 fallback: 0
+t 已完成周数: 50 截至: 2009-12-11 fallback: 0
+t 已完成周数: 75 截至: 2010-06-04 fallback: 0
+t 已完成周数: 100 截至: 2010-11-26 fallback: 0
+t 已完成周数: 125 截至: 2011-05-20 fallback: 0
+t 已完成周数: 150 截至: 2011-11-11 fallback: 0
+t 已完成周数: 175 截至: 2012-05-04 fallback: 0
+t 已完成周数: 200 截至: 2012-10-26 fallback: 0
+t 已完成周数: 225 截至: 2013-04-19 fallback: 0
+t 已完成周数: 250 截至: 2013-10-11 fallback: 0
+t 已完成周数: 275 截至: 2014-04-04 fallback: 0
+t 已完成周数: 300 截至: 2014-09-26 fallback: 0
+t 已完成周数: 325 截至: 2015-03-20 fallback: 0
+t 已完成周数: 350 截至: 2015-09-11 fallback: 0
+t 已完成周数: 375 截至: 2016-03-04 fallback: 0
+t 已完成周数: 400 截至: 2016-08-26 fallback: 0
+t 已完成周数: 425 截至: 2017-02-17 fallback: 0
+t 已完成周数: 450 截至: 2017-08-11 fallback: 0
+t 已完成周数: 475 截至: 2018-02-02 fallback: 0
+t 已完成周数: 500 截至: 2018-07-27 fallback: 0
+t 已完成周数: 525 截至: 2019-01-18 fallback: 0
+t 已完成周数: 550 截至: 2019-07-12 fallback: 0
+t 已完成周数: 575 截至: 2020-01-03 fallback: 0
+t 已完成周数: 600 截至: 2020-06-26 fallback: 0
+t 已完成周数: 625 截至: 2020-12-18 fallback: 0
+t 已完成周数: 650 截至: 2021-06-11 fallback: 0
+t 已完成周数: 675 截至: 2021-12-03 fallback: 0
+t 已完成周数: 700 截至: 2022-05-27 fallback: 0
+t 已完成周数: 725 截至: 2022-11-18 fallback: 0
+t 已完成周数: 750 截至: 2023-05-12 fallback: 0
+t 已完成周数: 775 截至: 2023-11-03 fallback: 0
+t 已完成周数: 800 截至: 2024-04-26 fallback: 0
+t 已完成周数: 825 截至: 2024-10-18 fallback: 0
+t 已完成周数: 850 截至: 2025-04-11 fallback: 0
+t 已完成周数: 875 截至: 2025-10-03 fallback: 0
+t 已完成周数: 900 截至: 2026-03-27 fallback: 0
+t 已完成周数: 925 截至: 2026-09-18 fallback: 0
+Hamilton(t) fallback 0 次
+signal shape: (212, 505)
+
+backtest done: 4716 days
+回测区间: 2008-01-02 00:00:00 → 2026-09-30 00:00:00
+
+benchmarks done
+
+train: 年化证券成交金额/NAV=6.412，记录费用的简单年化占比=0.449%
+val: 年化证券成交金额/NAV=6.670，记录费用的简单年化占比=0.467%
+test: 年化证券成交金额/NAV=7.295，记录费用的简单年化占比=0.511%
+                    SR     CAGR    MaxDD      t  turn
+Strategy train  +0.726  +13.64%  -23.10%  +1.26   6.4
+Strategy val    +1.200  +17.67%  -13.64%  +2.40   6.7
+Strategy test   +1.147  +16.54%  -14.52%  +3.58   7.3
+SPY      train  +0.651  +10.82%  -18.61%  +1.13   0.0
+SPY      val    +1.102  +14.22%  -13.02%  +2.20   0.0
+SPY      test   +0.874  +15.25%  -33.72%  +2.72   0.0
+
+四标准(SPY基准): {'SR > SPY+0.3': False, 'SR > SPY': True, 'DD < 0.7×SPY': True, 'CAGR > 0': True} → FAIL

@@ -1,0 +1,7 @@
+model,period,sharpe,cagr,max_drawdown,t_stat,annual_turnover,source
+Strategy,train,0.726,0.1364,-0.231,1.26,6.4,notebook_saved_output
+Strategy,val,1.2,0.17670000000000002,-0.1364,2.4,6.7,notebook_saved_output
+Strategy,test,1.147,0.1654,-0.1452,3.58,7.3,notebook_saved_output
+SPY,train,0.651,0.1082,-0.1861,1.13,0.0,notebook_saved_output
+SPY,val,1.102,0.1422,-0.13019999999999998,2.2,0.0,notebook_saved_output
+SPY,test,0.874,0.1525,-0.3372,2.72,0.0,notebook_saved_output
